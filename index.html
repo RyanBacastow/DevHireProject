@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>DevHire</title>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body ng-app="myApp">
+    <div class="container">
+        <div id='pageHeader'>
+            <h1>DevHire</h1>
+            <h2>A one-stop-shop for all your developer hiring needs.</h2>
+        </div>
+        <div ng-controller="forHireCtrl">
+            <div class="row">
+                <div ng-repeat="people in friend">
+                    <div id="totalDiv" class='col-xs-12  col-sm-6 col-lg-4' ng-hide="friend.notAvailable">
+                        <img ng-src="{{people.images[0].full}}" />
+                        <div id='lowerHeaders'>
+                            <h2> {{people.name}} </h2>
+                            <h3> {{people.nickname}} </h3>
+                        </div>
+                        <section ng-controller="panelController">
+<!--
+                            <div id='panelDiv'>
+                               
+                                <ul class="nav nav-pills">
+                                    <li ng-class="{active:tab ===1}"><a ng-click="selectTab(1)" href>Qualifications</a></li>
+                                    <li ng-class="{active:tab ===2}"><a ng-click="selectTab(2)" href>My Projects</a></li>
+                                    <li ng-class="{active:tab ===3}"><a ng-click="selectTab(3)" href>Work Portfolio</a></li>
+                                </ul>
+                            </div>
+-->
+                           
+                           <div id='panelDiv'>
+                               
+                                <div  class="row" >
+                                    <span  ng-class="col-xs-4 {active:tab ===1}"><a ng-click="selectTab(1)" href>Qualifications</a></span>
+                                    <span ng-class="col-xs-4 {active:tab ===2}"><a ng-click="selectTab(2)" href>My Projects</a></span>
+                                    <span ng-class="col-xs-4 {active:tab ===3}"><a ng-click="selectTab(3)" href>Work Portfolio</a></span>
+                                
+                            </div>
+                            </div>
+                            <div class="panel" ng-show="tab === 1">
+                                <h4>My Qualifications</h4>
+                                <p><a href={{people.qualifications}}>Qualifications</a></p>
+                            </div>
+                            <div class="panel" ng-show="tab === 2">
+                                <h4>Links to Projects</h4>
+                                <p><a href={{people.projects}}>My Github</a></p>
+                            </div>
+                            <div class="panel" ng-show="tab === 3">
+                                <h4>Links to Portfolio</h4>
+                                <p>{{people.portfolio}}</p>
+                            </div>
+
+                        </section>
+                        <button class='btn btn-success' ng-show="people.isAvailable">See my Resume!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</body>
+
+</html>
