@@ -1,0 +1,17 @@
+<div ng-controller="forHireCtrl">
+            <div class="row">
+                <div ng-repeat="people in friend">
+                    <div id="totalDiv" class='col-xs-12  col-sm-6 col-lg-4' ng-hide="friend.notAvailable">
+                        <img ng-src="{{people.images[0].full}}" />
+                        <div id='lowerHeaders'>
+                            <h2> {{people.name}} </h2>
+                            <h3> {{people.occupation}} </h3>
+                        </div>
+                        <section hire-panels></section>
+                        <div>
+                            <button class='btn btn-success' ng-click="people.email">Contact Me</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

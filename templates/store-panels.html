@@ -1,0 +1,21 @@
+<div id='panelDiv'>
+    <div class="row">
+        <span class="col-xs-4" ng-class=" {'active':tab ===1}"><a ng-click="selectTab(1)" href>Qualifications</a></span>
+        <span class="col-xs-4" ng-class=" {'active':tab ===2}"><a ng-click="selectTab(2)" href>My Projects</a></span>
+        <span class="col-xs-4" ng-class="{'active':tab ===3}"><a ng-click="selectTab(3)" href>My Reviews</a></span>
+    </div>
+</div>
+<div class="panel" ng-show="tab === 1">
+    <h4>My Qualifications:</h4>
+    <p>{{people.qualifications}}</p>
+</div>
+<div class="panel" ng-show="tab === 2">
+    <h4>Links to Projects</h4>
+    <p><a href={{people.projects}}>My Github</a></p>
+</div>
+<div class="panel" ng-show="tab === 3">
+    <h4>Reviews</h4>
+    <blockquote ng-repeat="review in people.reviews"><b>Stars: {{review.stars}}</b><br />{{review.body}}<cite><br />by: {{review.author}}</cite></blockquote>
+    <h3>Write a Review</h3>
+    <div add-review></div>
+</div>

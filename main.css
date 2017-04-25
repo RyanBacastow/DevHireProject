@@ -1,8 +1,17 @@
 #pageHeader {
     align-content: center;
-    font-size: 4em;
     text-align: center;
+    font-size: 5em;
 }
+
+h1 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
 
 #totalDiv {
 	text-align: center;

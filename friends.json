@@ -1,0 +1,93 @@
+[{
+	"name": "Oleksandra Golovkova",
+	"occupation": "Full-Stack Python Developer",
+	"availableForHire": "You can contact me with opportunities.",
+	"isAvailable": true,
+	"notAvailable": false,
+	"email": "sahsa@sahsha.com",
+	"projects": "https://github.com/SashaSasha1993",
+	"portfolio": "This is where I would have links to all the products/sites/apps I have designed.",
+	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
+	"reviews": [{
+		"stars": 5,
+		"body": " \"I love their work!\" ",
+		"author": "joe@codingtemple.com"
+	}, {
+		"stars": 5,
+		"body": " \"10/10 Would hire again.\" ",
+		"author": "ripal@codingtemple.com"
+	}],
+	"images": [{
+		"full": "images/sasha.jpg",
+		"thumb": "images/sasha.jpg"
+	}]
+}, {
+	"name": "Ryan Bacastow",
+	"occupation": "Full-Stack Python Developer",
+	"availableForHire": "You can contact me with opportunities.",
+	"isAvailable": true,
+	"notAvailable": false,
+	"email": "ryan@ryan.com",
+	"projects": "https://github.com/RyanBacastow",
+	"portfolio": "This is where I would have links to all the products/sites/apps I have designed.",
+	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
+	"reviews": [{
+		"stars": 5,
+		"body": " \"I love their work!\" ",
+		"author": " \"joe@codingtemple.com\" "
+	}, {
+		"stars": 5,
+		"body": " \"10/10 Would hire again.\" ",
+		"author": " \"ripal@codingtemple.com\" "
+	}],
+	"images": [{
+		"full": "images/ryan.jpg",
+		"thumb": "images/ryan.jpg"
+	}]
+}, {
+	"name": "Peter Yoon",
+	"occupation": "Full-Stack Python Developer",
+	"availableForHire": "You can contact me with opportunities.",
+	"isAvailable": true,
+	"notAvailable": false,
+	"email": "peter@peter.com",
+	"projects": "https://github.com/peteyoon14",
+	"portfolio": "This is where I would have links to all the products/sites/apps I have designed.",
+	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
+	"reviews": [{
+		"stars": 5,
+		"body": " \"I love their work!\" ",
+		"author": " \"joe@codingtemple.com\" "
+	}, {
+		"stars": 5,
+		"body": " \"10/10 Would hire again.\" ",
+		"author": " \"ripal@codingtemple.com\" "
+	}],
+	"images": [{
+		"full": "images/peter.jpg",
+		"thumb": "images/peter.jpg"
+	}]
+}, {
+	"name": "Ananya Koduri",
+	"occupation": "Full-Stack Python Developer",
+	"availableForHire": "You can contact me with opportunities.",
+	"isAvailable": true,
+	"notAvailable": false,
+	"email": "ananya@ananya.com",
+	"projects": "https://github.com/ananya94",
+	"portfolio": "This is where I would have links to all the products/sites/apps I have designed.",
+	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
+	"reviews": [{
+		"stars": 5,
+		"body": " \"I love their work!\" ",
+		"author": " \"joe@codingtemple.com\" "
+	}, {
+		"stars": 5,
+		"body": " \"10/10 Would hire again.\" ",
+		"author": " \"ripal@codingtemple.com\" "
+	}],
+	"images": [{
+		"full": "images/ananya.jpg",
+		"thumb": "images/ananya.jpg"
+	}]
+}]
