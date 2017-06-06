@@ -1,3 +1,7 @@
+.background{ 
+    background-image: url(/Images/dev_hire.jpg);
+    background-size: cover;
+}
 #pageHeader {
     align-content: center;
     text-align: center;

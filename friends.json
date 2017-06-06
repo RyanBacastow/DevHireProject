@@ -10,11 +10,11 @@
 	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
 	"reviews": [{
 		"stars": 5,
-		"body": " \"I love their work!\" ",
+		"body": " \"She is very thorough in her work.\" ",
 		"author": "joe@codingtemple.com"
 	}, {
 		"stars": 5,
-		"body": " \"10/10 Would hire again.\" ",
+		"body": " \"It was a pleasure to work with Sasha.\" ",
 		"author": "ripal@codingtemple.com"
 	}],
 	"images": [{
@@ -34,11 +34,11 @@
 	"reviews": [{
 		"stars": 5,
 		"body": " \"I love their work!\" ",
-		"author": " \"joe@codingtemple.com\" "
+		"author": " \"john@codingtemple.com\" "
 	}, {
 		"stars": 5,
 		"body": " \"10/10 Would hire again.\" ",
-		"author": " \"ripal@codingtemple.com\" "
+		"author": " \"sarah@codingtemple.com\" "
 	}],
 	"images": [{
 		"full": "ryan.jpg",
@@ -56,12 +56,12 @@
 	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
 	"reviews": [{
 		"stars": 5,
-		"body": " \"I love their work!\" ",
-		"author": " \"joe@codingtemple.com\" "
+		"body": " \"Peter was a dream employee.\" ",
+		"author": " \"rick@codingtemple.com\" "
 	}, {
 		"stars": 5,
-		"body": " \"10/10 Would hire again.\" ",
-		"author": " \"ripal@codingtemple.com\" "
+		"body": " \"Can't go wrong with Peter on your team.\" ",
+		"author": " \"stevel@codingtemple.com\" "
 	}],
 	"images": [{
 		"full": "peter.jpg",
@@ -79,12 +79,12 @@
 	"qualifications": "This is where I would attach my resume and make my qualifications clear.",
 	"reviews": [{
 		"stars": 5,
-		"body": " \"I love their work!\" ",
-		"author": " \"joe@codingtemple.com\" "
+		"body": " \"Ananya helped us meet our dealines\" ",
+		"author": " \"Craig@codingtemple.com\" "
 	}, {
 		"stars": 5,
 		"body": " \"10/10 Would hire again.\" ",
-		"author": " \"ripal@codingtemple.com\" "
+		"author": " \"Ellen@codingtemple.com\" "
 	}],
 	"images": [{
 		"full": "ananya.jpg",
